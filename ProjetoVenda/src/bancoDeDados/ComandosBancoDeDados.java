@@ -9,7 +9,7 @@ public class ComandosBancoDeDados {
 	private Connection conn;
 	FabricaConexao fabrica;
 	
-	
+	int s;
 	public ComandosBancoDeDados() {
 		 fabrica = new FabricaConexao();
 		 conn = fabrica.getConnection();
